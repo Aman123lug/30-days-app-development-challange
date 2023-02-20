@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/firstpage"
+    tools:context=".MainActivity">
+
+<!--Name - layout here -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgfortext"
+        android:inputType="text"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:hint="Name"
+
+        />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--mobile - layout here -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="30dp"
+        app:startIconDrawable="@drawable/baseline_call_24"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgfortext"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:hint="Mobile no."
+            android:inputType="number"
+            android:id="@+id/number"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Email - layout here -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:startIconDrawable="@drawable/baseline_email_24"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgfortext"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:hint="E-mail"
+            android:inputType="text"
+            android:id="@+id/mail"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+<!--Password layout here !-->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:endIconMode="password_toggle"
+        app:startIconDrawable="@drawable/baseline_keyboard_24"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgfortext"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:hint="Password"
+            android:inputType="text"
+            android:id="@+id/password"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Button sign up here-->
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="150dp"
+
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1188B1"
+        android:text="Sign-Up"
+
+        />
+
+
+
+</LinearLayout>

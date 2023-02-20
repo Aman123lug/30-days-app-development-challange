@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "573823035312",
+    "project_id": "day-15-database",
+    "storage_bucket": "day-15-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573823035312:android:c739ad9acd8b5fe6c4d875",
+        "android_client_info": {
+          "package_name": "com.example.day_15_database_firebase_save_userdata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573823035312-gu05j6nmv04k5nr8rd2ik4jvpgascmss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Psi5b0jcERiytgIPgT35k9d3QpcFfTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573823035312-gu05j6nmv04k5nr8rd2ik4jvpgascmss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
